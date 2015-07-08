@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-	$('#submit').keydown(function (enter) {
+	$('#submit').on('click', function (enter) {
 		appendFizzBuzz();
 
 	)}
